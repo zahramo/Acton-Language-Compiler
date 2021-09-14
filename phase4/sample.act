@@ -1,0 +1,73 @@
+actor A(10) {
+    knownactors {
+
+    }
+    actorvars {
+        int i;
+        boolean j;
+        string k;
+        int r[5];
+    }
+    msghandler initial(int i, boolean j, string k, int e) {
+        self.i = i + 1;
+        self.j = (j && true) || false;
+        self.k = k;
+        self.foo(e);
+    }
+    msghandler foo(int mo) {
+        int i;
+        int y;
+        boolean f;
+        int array[5];
+        string o;
+        //self.r[1] = 1;
+        //self.r[3] = array[0] + r;
+        print(r);
+        print(i);
+        print(o);
+        print(self.i);
+        print(j);
+        print(self.k);
+        print(self.r);
+        print(self.i++);
+        print(self.i);
+        y = 1;
+        print("--------------------------------");
+        i = y++ + r[1]++ + self.i++;
+        array[1] = array[1] + 4;
+        print(i);
+        print(y);
+        print(array[1]);
+        print(r[2]);
+        print(self.i);
+        print("--------------------------------");
+        i = y-- + array[1]-- + self.i--;
+                print(i);
+                print(y);
+                print(array[1]);
+                print(self.i);
+                print("--------------------------------");
+                i = ++r[2];
+
+                for(i = 0; i != 12; i = i + 2) {
+
+
+                            if(i != 4) {
+
+                               continue;
+                            }
+                                                           print(i);
+
+
+
+                        }
+
+
+    }
+}
+
+main {
+    A a1():(1,true,"hi",2*6);
+}
+
+//compile, no run

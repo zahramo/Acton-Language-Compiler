@@ -1,0 +1,260 @@
+actor A extends B (5){
+    knownactors {
+        D i;
+    }
+    actorvars {
+
+    }
+    msghandler initial(int r, boolean o) {
+        string o;
+    }
+    msghandler foo() {
+
+    }
+    msghandler boo() {
+
+    }
+}
+
+actor H (5){
+    knownactors {
+
+    }
+    actorvars {
+
+    }
+    msghandler joo() {
+
+    }
+}
+
+actor E extends H (5){
+    knownactors {
+        Y t;
+    }
+    actorvars {
+
+    }
+    msghandler hoo() {
+
+    }
+    msghandler joo() {
+
+    }
+}
+
+actor e (0){
+    knownactors {
+
+    }
+    actorvars {
+        string b;
+    }
+    msghandler initial(int a, string a, int t[0]) {
+        int t;
+    }
+    msghandler foo(int a) {
+        int b;
+    }
+}
+
+actor B extends C (0){
+    knownactors {
+        G t;
+    }
+    actorvars {
+        string i;
+    }
+    msghandler foo() {
+
+    }
+    msghandler hoo() {
+
+    }
+}
+
+actor U(5){
+    knownactors {
+        R a;
+    }
+    actorvars {
+        string a;
+        int y[0];
+    }
+    msghandler initial() {
+
+    }
+    msghandler goo() {
+
+    }
+}
+
+actor P extends K (5){
+    knownactors {
+
+    }
+    actorvars {
+        string a;
+    }
+}
+
+actor C extends A (5){
+    knownactors {
+        U i;
+    }
+    actorvars {
+        int y;
+    }
+    msghandler initial(int r, boolean o) {
+        string o;
+    }
+    msghandler foo() {
+
+    }
+    msghandler boo() {
+
+    }
+    msghandler goo() {
+
+    }
+}
+
+actor L extends P (5){
+    knownactors {
+        G a;
+    }
+    actorvars {
+        int a[0];
+    }
+    msghandler foo(int a) {
+        int a;
+    }
+}
+
+actor R extends R (5){
+    knownactors {
+        G i;
+    }
+    actorvars {
+        string a;
+    }
+    msghandler foo() {
+
+    }
+    msghandler boo(int a, string c) {
+        int c[5];
+    }
+    msghandler foo() {
+
+    }
+}
+
+actor J extends KA(0) {
+    knownactors {
+
+    }
+    actorvars {
+
+    }
+
+}
+
+actor J (5){
+    knownactors {
+        V a;
+    }
+    actorvars {
+        string a;
+    }
+    msghandler initial(int t, int b[0], string b, boolean a, int b[0]) {
+        int a;
+        int t[0];
+    }
+    msghandler JmsgHandler(int t) {
+            int a;
+            int t[9];
+            string g;
+        }
+    msghandler JmsgHandler(int t, int b[0], string b, boolean a, int b[0]) {
+        int a;
+        int t[0];
+        string g;
+    }
+}
+
+actor X extends Y (5){
+    knownactors {
+
+    }
+    actorvars {
+        string a;
+    }
+    msghandler initial () {
+
+    }
+    msghandler foo (int a) {
+
+    }
+    msghandler boo() {
+
+    }
+}
+
+actor Y extends Z (5){
+    knownactors {
+
+    }
+    actorvars {
+
+    }
+    msghandler initial () {
+
+    }
+    msghandler boo() {
+
+    }
+    msghandler doo() {
+
+    }
+}
+
+actor Z (5){
+    knownactors {
+        J a;
+    }
+    actorvars {
+
+    }
+    msghandler doo(int r[0], string r) {
+
+    }
+    msghandler foo() {
+
+    }
+}
+
+actor M extends N (5){
+     knownactors {
+
+     }
+     actorvars {
+
+     }
+ }
+
+ actor N extends M (5){
+     knownactors {
+
+     }
+     actorvars {
+
+     }
+ }
+
+main {
+    T a(t):(0, 8, 6);
+    Y a(b, a):(1);
+    A b(w):(9*5+6);
+    B a(w):(0);
+    B a(w):(0);
+}
